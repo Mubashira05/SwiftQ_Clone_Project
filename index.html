@@ -1,0 +1,847 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="Assets/Images/logo.png" type="image/png">
+  <title>Queue Management Software for Healthcare | Streamline Patient Flow</title>
+  <meta name="description"
+    content="Optimize patient flow and reduce wait times with our advanced healthcare queue management software. Improve efficiency, enhance patient experience, and ensure smooth clinic operations.">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-navbar ">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/logo.png" alt="swiftQ">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home"><i class="fas fa-home"></i> &nbsp; Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutus">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#howitworks">
+              How it works
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#benefits">Benefits</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <a href="enquire.html" class="btn btn-sky btn-lg rounded-0">Free Demo</a>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- home banner  -->
+  <section id="home" class="homebanner">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-md-12 " data-aos="fade-right">
+          <h1 class="ffam">Smart Queue Management for Smarter Healthcare</h1>
+          <p class="ffam">SwiftQ is designed to simplify and streamline the management of patient
+            queues in hospitals and clinics. It helps reduce waiting time, improve patient experience, and enhance
+            operational efficiency. Patients can register and receive a token number, while the system automatically
+            organizes and updates the queue in real-time. Staff and doctors can monitor the queue status, call the next
+            patient, and manage appointments seamlessly.
+          </p>
+          <a href="enquire.html" class="btn btn-sky btn-lg rounded-0">Request a Demo</a>
+        </div>
+        <div class="col-lg-6 col-md-12 homebanner-image" data-aos="fade-left">
+          <img src="assets/images/home.png" alt="Queue Management System" class="img-fluid homeimg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About us -->
+  <section id="aboutus" class="about-section ">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 ffam" data-aos="fade-right">
+          <h2>About SwiftQ</h2>
+          <p>At SwiftQ we are passionate about transforming healthcare operations through technology. With over 10+
+            years of experience in IT solutions, our team has developed a world-class Queue Management System tailored
+            to the unique needs of hospitals, clinics, diagnostic centers, and multi-specialty facilities.
+          </p>
+          <div class="d-flex align-items-center mb-4">
+            <div class="feature-icon">
+              <i class="fas fa-rocket"></i>
+            </div>
+            <div class="feature-text">
+              <h4 class="fw-bold fs-3">Our Mission</h4>
+              <p class="mb-0">To empower healthcare providers with tools that make every patient interaction efficient, comfortable, and stress-free.</p>
+            </div>
+          </div>
+          
+          <div class="d-flex align-items-center mb-4">
+            <div class="feature-icon">
+              <i class="fas fa-eye"></i>
+            </div>
+            <div class="feature-text">
+              <h4 class="fw-bold fs-3">Our Vision</h4>
+              <p class="mb-0">A world where no patient waits aimlessly and healthcare facilities operate at peak
+                efficiency</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex align-items-center justify-content-center " data-aos="fade-left">
+          <div class="image-placeholder">
+            <img src="assets/images/about.png" alt="Queue Management System" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- how it works -->
+  <section id="howitworks" class="howitworks-section ffam">
+    <div class="container">
+      <h2 class="howitworks-title" data-aos="fade-left">How It Works</h2>
+      <p class="howitworks-subtitle" data-aos="fade-left">A SwiftQ helps manage patient flow and reduce waiting times.
+        Here’s how it works step by step:
+      </p>
+
+      <div class="row g-4" data-aos="fade-right">
+        <!-- step 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="howitworks-card position-relative">
+            <div class="step-indicator">Step 1</div>
+            <div class="howitworks-icon">
+              <img src="assets/images/Pregistration.png" alt="patient registration" />
+            </div>
+            <h3 class="howitworks-card-title">Patient Registration</h3>
+            <p class="howitworks-card-text">
+              Patients register through a kiosk, mobile app, website, or at the reception desk.
+            </p>
+          </div>
+        </div>
+
+        <!-- step 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="howitworks-card position-relative">
+            <div class="step-indicator">Step 2</div>
+            <div class="howitworks-icon">
+              <img src="assets/images/token.png" alt="Token generation" />
+            </div>
+            <h3 class="howitworks-card-title">Token Generation</h3>
+            <p class="howitworks-card-text">
+              After registration, the system gives a token number showing the patient’s place in line.
+            </p>
+          </div>
+        </div>
+
+        <!-- step 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="howitworks-card position-relative">
+            <div class="step-indicator">Step 3</div>
+            <div class="howitworks-icon">
+              <img src="assets/images/queue.png" alt="Queue management" />
+            </div>
+            <h3 class="howitworks-card-title">Queue Management</h3>
+            <p class="howitworks-card-text">
+              Patients are placed in different queues based on:
+            <ul style="text-align: justify;">
+              <li> Department (like OPD, emergency, or lab)</li>
+              <li> Priority (emergency cases go first)</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+
+        <!-- step 4 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="howitworks-card position-relative">
+            <div class="step-indicator">Step 4</div>
+            <div class="howitworks-icon">
+              <img src="assets/images/live.png" alt="live updates" />
+            </div>
+            <h3 class="howitworks-card-title"> Live Updates</h3>
+            <p class="howitworks-card-text">
+              The system shows live updates of the queue on screens or sends notifications by SMS or app.
+            </p>
+          </div>
+        </div>
+
+
+        <!-- step 5 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="howitworks-card position-relative">
+            <div class="step-indicator">Step 5</div>
+            <div class="howitworks-icon">
+              <img src="assets/images/calling.png" alt="patient calling" />
+            </div>
+            <h3 class="howitworks-card-title">Patient Calling</h3>
+            <p class="howitworks-card-text">
+              When it’s the patient’s turn, their token number is:
+            <ul style="text-align: justify;">
+              <li>Called on display screens</li>
+              <li>Announced by voice</li>
+              <li>Guided to the right room or counter
+              </li>
+            </ul>
+            </p>
+          </div>
+        </div>
+
+        <!-- step 6 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="howitworks-card position-relative">
+            <div class="step-indicator">Step 6</div>
+            <div class="howitworks-icon">
+              <img src="assets/images/feedback.png" alt="service feedback" />
+            </div>
+            <h3 class="howitworks-card-title">Service & Feedback</h3>
+            <p class="howitworks-card-text">
+              After treatment, process is completed or patients may go to other departments or give feedback through
+              kiosks or apps.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- feature section -->
+  <section id="features" class="featSection ffam">
+    <div class="container">
+      <h2 class="featHeading" data-aos="fade-left">Key Features</h2>
+
+      <div class="row">
+        <!-- Feature 1 -->
+        <div class="col-md-3 col-sm-6" data-aos="fade-right">
+          <div class="featCard featTeal">
+            <div class="featIcon">
+              <img src="assets/images/ticket.png" alt="token based queueing">
+            </div>
+            <div class="featText fw-bold">Token-Based Queueing</div>
+          </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="col-md-3 col-sm-6" data-aos="fade-right">
+          <div class="featCard featLavender">
+            <div class="featIcon">
+              <img src="assets/images/realtime.png" alt="real time queue updates">
+            </div>
+            <div class="featText fw-bold">Real-Time Queue Updates</div>
+          </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="col-md-3 col-sm-6" data-aos="fade-right">
+          <div class="featCard featCoral">
+            <div class="featIcon">
+              <img src="assets/images/mul-dep.png" alt="multi department support">
+            </div>
+            <div class="featText fw-bold">Multi-Department Support</div>
+          </div>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="col-md-3 col-sm-6" data-aos="fade-right">
+          <div class="featCard featCream">
+            <div class="featIcon">
+              <img src="assets/images/emergency.png" alt="emergency prioritization">
+            </div>
+            <div class="featText fw-bold">Emergency Prioritization</div>
+          </div>
+        </div>
+
+        <!-- Feature 5 -->
+        <div class="col-md-4 col-sm-6" data-aos="fade-left">
+          <div class="featCard featBlue">
+            <div class="featIcon">
+              <img src="assets/images/notification.png" alt="sms/app notification">
+            </div>
+            <div class="featText fw-bold">SMS/App Notifications</div>
+          </div>
+        </div>
+
+        <!-- Feature 6 -->
+        <div class="col-md-4 col-sm-6" data-aos="fade-left">
+          <div class="featCard featAqua">
+            <div class="featIcon">
+              <img src="assets/images/voice.png" alt="voice announcements">
+            </div>
+            <div class="featText fw-bold">Voice Announcements</div>
+          </div>
+        </div>
+
+        <!-- feature 7 -->
+        <div class="col-md-4 col-sm-6" data-aos="fade-left">
+          <div class="featCard featreport">
+            <div class="featIcon">
+              <img src="assets/images/monitor.png" alt="reports & analytics dashboard">
+            </div>
+            <div class="featText fw-bold">Reporting & Analytics Dashboard</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- benefits  -->
+  <section id="benefits" class="benefitsSection ffam">
+    <div class="container">
+      <h2 class="benefitsHeading" data-aos="fade-left">Benefits</h2>
+        <div class="row g-4" data-aos="fade-right">
+        
+        <!-- Benefit 1 -->
+        <div class="col-lg-3 col-md-4">
+          <div class="benefitsItem h-100">
+
+            <div class="benefitsIconWrapper ">
+               <img src="assets/images/waittime.png" alt="reduced waiting time"> 
+            </div>
+            <h4 class="benefitsTitle">Reduced Waiting Time</h4>
+            <p class="benefitsDescription">Efficient token management ensures patients are seen in order, minimizing
+              idle time.</p>
+          </div>
+        </div>
+
+        <!-- Benefit 2 -->
+        <div class="col-lg-3 col-md-4">
+          <div class="benefitsItem h-100">
+            <div class="benefitsIconWrapper ">
+              <img src="assets/images/improve.png" alt="improved experience">
+            </div>
+            <h4 class="benefitsTitle">Improved Experience</h4>
+            <p class="benefitsDescription">Clear instructions, real-time updates, and digital displays reduce confusion
+              and frustration.</p>
+          </div>
+        </div>
+
+        <!-- Benefit 3 -->
+        <div class="col-lg-3 col-md-4">
+          <div class="benefitsItem h-100">
+            <div class="benefitsIconWrapper ">
+              <img src="assets/images/remote.png" alt="remote notification">
+            </div>
+            <h4 class="benefitsTitle">Remote Notifications</h4>
+            <p class="benefitsDescription">SMS/app alerts let patients wait outside or in their vehicles instead of
+              crowded waiting areas.
+            </p>
+          </div>
+        </div>
+
+        <!-- benifits 4 -->
+        <div class="col-lg-3 col-md-4">
+          <div class="benefitsItem h-100">
+            <div class="benefitsIconWrapper ">
+              <img src="assets/images/transparency.png" alt="transparency">
+            </div>
+            <h4 class="benefitsTitle">Transparency
+            </h4>
+            <p class="benefitsDescription">Patients can see their position in the queue and estimated waiting time.
+            </p>
+          </div>
+        </div>
+
+        <!-- benifits 5 -->
+        <div class="col-lg-3 col-md-4">
+          <div class="benefitsItem h-100">
+            <div class="benefitsIconWrapper ">
+              <img src="assets/images/priority.png" alt="priority handling">
+            </div>
+            <h4 class="benefitsTitle">Priority Handling</h4>
+            <p class="benefitsDescription">Senior citizens, emergencies, and pre-booked appointments can be prioritized
+              smoothly.
+            </p>
+          </div>
+        </div>
+
+        <!-- benifits 6 -->
+        <div class="col-lg-3 col-md-4">
+          <div class="benefitsItem h-100">
+            <div class="benefitsIconWrapper ">
+              <img src="assets/images/organized.png" alt="oraganized patient flow">
+            </div>
+            <h4 class="benefitsTitle">Organized Patient Flow
+            </h4>
+            <p class="benefitsDescription">Doctors see a clear list of waiting patients and can call the next one with a
+              click.</p>
+          </div>
+        </div>
+
+        <!-- benifits 7 -->
+        <div class="col-lg-3 col-md-4">
+          <div class="benefitsItem h-100">
+            <div class="benefitsIconWrapper ">
+              <img src="assets/images/interruption.png" alt="less interruption">
+            </div>
+            <h4 class="benefitsTitle">Less Interruption</h4>
+            <p class="benefitsDescription">Reduces unnecessary queries and interruptions from patients asking about
+              their turn.</p>
+          </div>
+        </div>
+
+        <!-- benifits 8 -->
+        <div class="col-lg-3 col-md-4">
+          <div class="benefitsItem h-100">
+            <div class="benefitsIconWrapper ">
+              <img src="assets/images/operation.png" alt="streamlined operation">
+            </div>
+            <h4 class="benefitsTitle">Streamlined Operations
+            </h4>
+            <p class="benefitsDescription">Receptionists and front desk staff can manage patient flow with ease.</p>
+          </div>
+        </div>
+        
+        <!-- benifits 9 -->
+        <div class="col-lg-3 col-md-4">
+          <div class="benefitsItem h-100">
+            <div class="benefitsIconWrapper ">
+              <img src="assets/images/effort.png" alt="reduced manual effort">
+            </div>
+            <h4 class="benefitsTitle">Reduced Manual Effort</h4>
+            <p class="benefitsDescription">Automated token generation and tracking minimize manual logging and
+              paperwork.
+            </p>
+          </div>
+        </div>
+        
+        <!-- benifits 10 -->
+        <div class="col-lg-3 col-md-4">
+          <div class="benefitsItem h-100">
+            <div class="benefitsIconWrapper">
+              <img src="assets/images/real-time.png" alt="real time monitoring">
+            </div>
+            <h4 class="benefitsTitle">Real-Time Monitoring
+            </h4>
+            <p class="benefitsDescription">Staff can track queues across departments in real-time.</p>
+          </div>
+        </div>
+        
+        <!-- benifits 11 -->
+        <div class="col-lg-3 col-md-4">
+          <div class="benefitsItem h-100">
+            <div class="benefitsIconWrapper">
+              <img src="assets/images/report.png" alt="detailed reports">
+            </div>
+            <h4 class="benefitsTitle">Detailed Reports
+            </h4>
+            <p class="benefitsDescription">View analytics on patient flow, doctor performance, and waiting times.
+            </p>
+          </div>
+        </div>
+
+        <!-- benifits 12 -->
+        <div class="col-lg-3 col-md-4">
+          <div class="benefitsItem h-100">
+            <div class="benefitsIconWrapper ">
+              <img src="assets/images/resource.png" alt="better resource allocation">
+            </div>
+            <h4 class="benefitsTitle">Better Resource Allocation
+            </h4>
+            <p class="benefitsDescription">Identify busy departments and allocate more staff or slots accordingly.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- faq section -->
+  <section id="faq" class="faq-section">
+    <div class="container">
+      <h2 class="faq-heading" data-aos="fade-left">FAQ's</h2>
+
+      <!-- FAQ  -->
+      <div class="faq-accordion" data-aos="fade-right">
+        <!-- FAQ 1 -->
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(0)">
+            <span> Can the system handle multiple departments and locations?</span>
+            <div class="faq-toggle">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div>
+          <div class="faq-answer">
+            <p>Yes, SwiftQ is scalable and can manage multiple departments and hospital branches centrally.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(1)">
+            <span> How long does implementation take?</span>
+            <div class="faq-toggle">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div>
+          <div class="faq-answer">
+            <p>Depending on the hospital size, it can take as little as 1-3 weeks.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(2)">
+            <span>Can it be integrated with our existing Hospital Management System (HMS)?</span>
+            <div class="faq-toggle">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div>
+          <div class="faq-answer">
+            <p>Absolutely! We offer full API integrations with most major HMS platforms.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(3)">
+            <span> Is the system secure?</span>
+            <div class="faq-toggle">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div>
+          <div class="faq-answer">
+            <p>Yes, we are compliant with international healthcare data security standards like HIPAA and GDPR.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(4)">
+            <span>Mauris in tortor sed dolor?</span>
+            <div class="faq-toggle">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div>
+          <div class="faq-answer">
+            <p>Mauris in tortor sed dolor faucibus dignissim. Etiam at lacus sit amet sapien auctor laoreet. Curabitur
+              nec nisi quis nibh fringilla gravida. Suspendisse nec magna non ipsum vehicula dictum.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 6 -->
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(5)">
+            <span>Mauris in tortor sed dolor?</span>
+            <div class="faq-toggle">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div>
+          <div class="faq-answer">
+            <p>Mauris in tortor sed dolor faucibus dignissim. Etiam at lacus sit amet sapien auctor laoreet. Curabitur
+              nec nisi quis nibh fringilla gravida. Suspendisse nec magna non ipsum vehicula dictum.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 7 -->
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(6)">
+            <span>Mauris in tortor sed dolor?</span>
+            <div class="faq-toggle">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div>
+          <div class="faq-answer">
+            <p>Mauris in tortor sed dolor faucibus dignissim. Etiam at lacus sit amet sapien auctor laoreet. Curabitur
+              nec nisi quis nibh fringilla gravida. Suspendisse nec magna non ipsum vehicula dictum.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 8 -->
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(7)">
+            <span>Mauris in tortor sed dolor?</span>
+            <div class="faq-toggle">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div>
+          <div class="faq-answer">
+            <p>Mauris in tortor sed dolor faucibus dignissim. Etiam at lacus sit amet sapien auctor laoreet. Curabitur
+              nec nisi quis nibh fringilla gravida. Suspendisse nec magna non ipsum vehicula dictum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- promote -->
+  <section id="promote">
+    <div class="container my-5 ffam">
+      <div class="row promote-section align-items-center">
+        <div class="col-md-12 mb-4 mb-md-0 promote-text">
+          <h5 class="fw-bold demo">Schedule a Free Demo</h5>
+          <div class="demo-div">
+            <p>Experience how our solution fits into your hospital workflow.</p>
+            <a href="enquire.html" class="btn promote-btn btn-lg rounded-0">Contact us</a>
+          </div>
+        </div>
+  </section>
+
+  <!-- contact us  -->
+  <section id="contact">
+    <div class="container contactus-wrapper ffam">
+      <div class="row align-items-center g-5">
+
+        <!-- Left side -->
+        <div class="col-lg-5 contactus-left" data-aos="fade-right">
+          <h2>Have a Question ?</h2>
+          <p>we are here to help! Fill out the form or reach us via email or phone.</p>
+          <div class="contact-info">
+            <div>
+              <p class="sales-title">Looking for sales</p>
+              <p><i class="fas fa-phone cont-icon"></i> <a href="tel:+919986809661" class="ac-phone">+91 9986809661</a>,
+                <a href="tel:+919886420645" class="ac-phone">+91 9886420645</a> , <a href="tel:+919019641307"
+                  class="ac-phone">+91 9019641307</a>
+              </p>
+            </div>
+
+            <div>
+              <p class="sales-title">Looking for Support</p>
+              <p><i class="fas fa-mobile-screen cont-icon"></i> <a href="tel:+919986809661" class="ac-phone">+91
+                  9986809661</a>,
+                <a href="tel:+919886420645" class="ac-phone">+91 9886420645</a>
+              </p>
+            </div>
+
+            <p><i class="fas fa-envelope cont-icon"></i><a href="mailto:info@webschedio.com" class="ac-phone">
+                info@webschedio.com</a></p>
+            <p><i class="fas fa-map-marker-alt cont-icon"></i> 3rd Floor, Dhanalaxmi Complex, 60 Feet Rd, Sharavathi
+              Nagar, Hosamane, Shivamogga, Karnataka 577201</p>
+          </div>
+        </div>
+
+        <!-- Right side -->
+        <div class="col-lg-7">
+          <form class="contactus-form" method="POST" action="contact-form-handler.php" data-aos="fade-left">
+            <div class="row mb-3">
+              <div class="col">
+                <label for="firstName">Full Name</label>
+                <input type="text" name="full_name" class="form-control rounded-0 border-0" id="firstName"
+                  placeholder="Full Name" required>
+              </div>
+              <div class="col">
+                <label for="lastName">Hospital Name</label>
+                <input type="text" name="hospital_name" class="form-control rounded-0 border-0" id="lastName"
+                  placeholder="Hospital Name" required>
+              </div>
+            </div>
+
+            <div class="mb-2">
+              <label for="company">Phone Number</label>
+              <input type="tel" name="phone" class="form-control rounded-0 border-0" id="phone"
+                placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="mb-2">
+              <label for="email">Email</label>
+              <input type="email" name="email" class="form-control rounded-0 border-0" id="email"
+                placeholder="Enter Your Email" required>
+            </div>
+
+            <div class="mb-2">
+              <label for="message">How can we help?</label>
+              <textarea name="message" id="message" class="form-control rounded-0 border-0" rows="4"
+                placeholder="Please share what you want to talk about" required></textarea>
+            </div>
+
+            <button type="submit" class="btn contactus-submit-btn w-100 rounded-0">Submit</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+
+  <footer class="footer-dark">
+    <div class="container">
+      <div class="row">
+
+        <!-- Company Logo and About -->
+        <div class="col-md-4 col-sm-6 mb-4">
+          <a href="#home"> <img src="assets/images/logo.png" alt="swift Q" class="footer-logo"></a>
+          <div class="footer-about">
+            <p>We are dedicated to providing the best products and services to our customers. Your satisfaction is our
+              priority.</p>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-2 col-sm-6 mb-4">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutus">About us</a></li>
+            <li><a href="#howitworks">How it works</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#benefits">Benefits</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="col-md-3 col-sm-6 mb-4">
+          <h4>Contact Us</h4>
+          <div class="contact-info">
+            <p><i class="fas fa-phone"></i> <a href="tel:+919986809661" class="a-phone">+91 9986809661</a>,
+              <a href="tel:+919886420645" class="a-phone">+91 9886420645</a>
+            </p>
+            <p><i class="fas fa-mobile-screen"></i> <a href="tel:+919019641307" class="a-phone">+91 9019641307</a>
+            </p>
+            <p><i class="fas fa-envelope"></i><a href="mailto:info@webschedio.com"
+                class="a-phone">info@webschedio.com</a></p>
+            <p><i class="fas fa-map-marker-alt"></i> 3rd Floor, Dhanalaxmi Complex, 60 Feet Rd, Sharavathi Nagar,
+              Hosamane, Shivamogga, Karnataka 577201</p>
+          </div>
+        </div>
+
+        <!-- Follow Us - Social Icons -->
+        <div class="col-md-3 col-sm-6 mb-4">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+          <div class="mt-3 footer-about">
+            <p>Stay connected with us on social media for updates, promotions, and more.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright Section -->
+      <div class="bottom-border">
+        <p>&copy; 2025 winpy. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+
+    // Function to toggle FAQ items
+    function toggleFaq(index) {
+      const faqItems = document.querySelectorAll('.faq-item');
+      const faqToggles = document.querySelectorAll('.faq-toggle');
+      const faqAnswers = document.querySelectorAll('.faq-answer');
+
+      // Close all other FAQs first
+      for (let i = 0; i < faqToggles.length; i++) {
+        if (i !== index) {
+          faqToggles[i].classList.remove('active');
+          faqAnswers[i].classList.remove('active');
+        }
+      }
+
+      // Toggle current FAQ
+      faqToggles[index].classList.toggle('active');
+      faqAnswers[index].classList.toggle('active');
+    }
+
+    // Function to switch FAQ tabs
+    const tabButtons = document.querySelectorAll('.faq-tab-btn');
+    const faqSections = {
+      'General': [0, 1, 2, 3],
+      'Categories': [2, 3],
+      'Pricing': [1, 4],
+      'Account': [0, 3]
+    };
+
+    // Initially show only General tab items
+    showTabContent('General');
+
+    tabButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        // Remove active class from all buttons
+        tabButtons.forEach(btn => {
+          btn.classList.remove('active');
+        });
+
+        // Add active class to clicked button
+        button.classList.add('active');
+
+        // Show related FAQ items based on selected tab
+        const tabName = button.textContent;
+        showTabContent(tabName);
+      });
+    });
+
+    function showTabContent(tabName) {
+      // Hide all FAQ items first
+      const allFaqItems = document.querySelectorAll('.faq-item');
+      allFaqItems.forEach((item, index) => {
+        item.style.display = 'none';
+
+        // Also close any open items
+        const toggle = item.querySelector('.faq-toggle');
+        const answer = item.querySelector('.faq-answer');
+        if (toggle && answer) {
+          toggle.classList.remove('active');
+          answer.classList.remove('active');
+        }
+      });
+
+      // Show only FAQ items for the selected tab
+      const indicesToShow = faqSections[tabName] || [];
+      indicesToShow.forEach(index => {
+        if (allFaqItems[index]) {
+          allFaqItems[index].style.display = 'block';
+        }
+      });
+    }
+  </script>
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: false,
+      disable: function () {
+        return window.innerWidth < 768; 
+      }
+    });
+
+    </script>
+  </body>
+</html>
